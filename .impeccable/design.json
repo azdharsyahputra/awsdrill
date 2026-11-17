@@ -1,0 +1,673 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T04:03:44.449863+00:00",
+  "title": "Design System: CLF-C02 Drill",
+  "extensions": {
+    "colorMeta": {
+      "pass-mark-green": {
+        "role": "primary",
+        "displayName": "Pass-Mark Green",
+        "canonical": "#0f7a5c",
+        "tonalRamp": [
+          "#15382e",
+          "#1d634f",
+          "#209272",
+          "#1fc798",
+          "#48e0b5",
+          "#8fe1ca",
+          "#c7eae0",
+          "#eef7f4"
+        ]
+      },
+      "pass-mark-ink": {
+        "role": "primary",
+        "displayName": "Pass-Mark Ink",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#949494",
+          "#b8b8b8",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "pass-mark-wash": {
+        "role": "primary",
+        "displayName": "Pass-Mark Wash",
+        "canonical": "#e1f1eb",
+        "tonalRamp": [
+          "#1e2e28",
+          "#305044",
+          "#3f7460",
+          "#4c9a7d",
+          "#71b79d",
+          "#a4cbbc",
+          "#d1e1db",
+          "#f0f4f3"
+        ]
+      },
+      "study-desk": {
+        "role": "neutral",
+        "displayName": "Study Desk",
+        "canonical": "#f3f5f4",
+        "tonalRamp": [
+          "#242826",
+          "#3c4440",
+          "#536059",
+          "#697d73",
+          "#8b9d94",
+          "#b3bcb8",
+          "#d7dbd9",
+          "#f2f3f2"
+        ]
+      },
+      "sheet-white": {
+        "role": "neutral",
+        "displayName": "Sheet White",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#949494",
+          "#b8b8b8",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "notebook-ink": {
+        "role": "neutral",
+        "displayName": "Notebook Ink",
+        "canonical": "#17201d",
+        "tonalRamp": [
+          "#232a27",
+          "#384742",
+          "#4d655d",
+          "#618479",
+          "#84a499",
+          "#afc0ba",
+          "#d5dcda",
+          "#f1f3f3"
+        ]
+      },
+      "pencil-grey": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "#5d6b66",
+        "tonalRamp": [
+          "#252827",
+          "#3d4341",
+          "#545e5b",
+          "#6b7a75",
+          "#8d9b96",
+          "#b4bbb9",
+          "#d7dad9",
+          "#f2f3f2"
+        ]
+      },
+      "ruled-line": {
+        "role": "neutral",
+        "displayName": "Ruled Line",
+        "canonical": "#d9e0dd",
+        "tonalRamp": [
+          "#242927",
+          "#3b4440",
+          "#52615a",
+          "#687e74",
+          "#8a9e95",
+          "#b2bdb8",
+          "#d6dbd9",
+          "#f2f3f2"
+        ]
+      },
+      "correct-green": {
+        "role": "secondary",
+        "displayName": "Correct Green",
+        "canonical": "#1d7a3a",
+        "tonalRamp": [
+          "#193421",
+          "#245b35",
+          "#2c8648",
+          "#30b55a",
+          "#58d07d",
+          "#97d8ab",
+          "#cbe6d4",
+          "#eff6f1"
+        ]
+      },
+      "correct-wash": {
+        "role": "secondary",
+        "displayName": "Correct Wash",
+        "canonical": "#e3f4e7",
+        "tonalRamp": [
+          "#1d3021",
+          "#2c5335",
+          "#397948",
+          "#44a25a",
+          "#6abe7e",
+          "#a1cfab",
+          "#cfe2d4",
+          "#f0f5f1"
+        ]
+      },
+      "miss-red": {
+        "role": "secondary",
+        "displayName": "Miss Red",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#361816",
+          "#602320",
+          "#8d2b25",
+          "#c02e26",
+          "#d9564f",
+          "#dd9692",
+          "#e9cbc9",
+          "#f6efee"
+        ]
+      },
+      "miss-wash": {
+        "role": "secondary",
+        "displayName": "Miss Wash",
+        "canonical": "#fbe9e7",
+        "tonalRamp": [
+          "#361a16",
+          "#602620",
+          "#8e2f25",
+          "#c03526",
+          "#d95d4f",
+          "#dd9a92",
+          "#e9ccc9",
+          "#f6efee"
+        ]
+      },
+      "trap-amber": {
+        "role": "secondary",
+        "displayName": "Trap Amber",
+        "canonical": "#a65f00",
+        "tonalRamp": [
+          "#3c2910",
+          "#6c4613",
+          "#a26410",
+          "#df8207",
+          "#f5a233",
+          "#ecbf83",
+          "#efdcc3",
+          "#f8f3ec"
+        ]
+      },
+      "domain-1-blue": {
+        "role": "tertiary",
+        "displayName": "Domain 1 Blue",
+        "canonical": "#2f6fb0",
+        "tonalRamp": [
+          "#192633",
+          "#26405a",
+          "#2f5984",
+          "#3472b1",
+          "#5c93cc",
+          "#99b7d6",
+          "#ccd9e6",
+          "#eff2f6"
+        ]
+      },
+      "domain-2-red": {
+        "role": "tertiary",
+        "displayName": "Domain 2 Red",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#361816",
+          "#602320",
+          "#8d2b25",
+          "#c02e26",
+          "#d9564f",
+          "#dd9692",
+          "#e9cbc9",
+          "#f6efee"
+        ]
+      },
+      "domain-3-green": {
+        "role": "tertiary",
+        "displayName": "Domain 3 Green",
+        "canonical": "#0f7a5c",
+        "tonalRamp": [
+          "#15382e",
+          "#1d634f",
+          "#209272",
+          "#1fc798",
+          "#48e0b5",
+          "#8fe1ca",
+          "#c7eae0",
+          "#eef7f4"
+        ]
+      },
+      "domain-4-amber": {
+        "role": "tertiary",
+        "displayName": "Domain 4 Amber",
+        "canonical": "#a65f00",
+        "tonalRamp": [
+          "#3c2910",
+          "#6c4613",
+          "#a26410",
+          "#df8207",
+          "#f5a233",
+          "#ecbf83",
+          "#efdcc3",
+          "#f8f3ec"
+        ]
+      },
+      "pass-mark-green-dark": {
+        "role": "primary",
+        "displayName": "Pass-Mark Green (dark)",
+        "canonical": "#3fc398",
+        "tonalRamp": [
+          "#1b322a",
+          "#285748",
+          "#338067",
+          "#3aab86",
+          "#61c7a6",
+          "#9cd3c1",
+          "#cde4dd",
+          "#eff5f3"
+        ]
+      },
+      "pass-mark-ink-dark": {
+        "role": "primary",
+        "displayName": "Pass-Mark Ink (dark)",
+        "canonical": "#06231a",
+        "tonalRamp": [
+          "#17362c",
+          "#205f4c",
+          "#258d6d",
+          "#26bf90",
+          "#4fd8ae",
+          "#92ddc6",
+          "#c9e8df",
+          "#eef6f4"
+        ]
+      },
+      "pass-mark-wash-dark": {
+        "role": "primary",
+        "displayName": "Pass-Mark Wash (dark)",
+        "canonical": "#183a2f",
+        "tonalRamp": [
+          "#1d2f29",
+          "#2d5246",
+          "#3b7864",
+          "#469f83",
+          "#6cbca2",
+          "#a2cdbf",
+          "#d0e2dc",
+          "#f0f5f3"
+        ]
+      },
+      "study-desk-dark": {
+        "role": "neutral",
+        "displayName": "Study Desk (dark)",
+        "canonical": "#101614",
+        "tonalRamp": [
+          "#232a27",
+          "#394742",
+          "#4e655d",
+          "#628478",
+          "#85a399",
+          "#afc0ba",
+          "#d5dcda",
+          "#f1f3f3"
+        ]
+      },
+      "sheet-dark": {
+        "role": "neutral",
+        "displayName": "sheet (dark)",
+        "canonical": "#18201d",
+        "tonalRamp": [
+          "#232927",
+          "#394641",
+          "#4f645c",
+          "#638277",
+          "#86a297",
+          "#b0bfb9",
+          "#d6dcda",
+          "#f1f3f2"
+        ]
+      },
+      "notebook-ink-dark": {
+        "role": "neutral",
+        "displayName": "Notebook Ink (dark)",
+        "canonical": "#e6ece9",
+        "tonalRamp": [
+          "#232926",
+          "#3a4640",
+          "#4f6359",
+          "#648173",
+          "#87a194",
+          "#b0bfb8",
+          "#d6dcd9",
+          "#f1f3f2"
+        ]
+      },
+      "pencil-grey-dark": {
+        "role": "neutral",
+        "displayName": "Pencil Grey (dark)",
+        "canonical": "#9aa8a2",
+        "tonalRamp": [
+          "#252826",
+          "#3c4340",
+          "#545f5a",
+          "#6b7b74",
+          "#8d9b95",
+          "#b4bcb8",
+          "#d7dad9",
+          "#f2f3f2"
+        ]
+      },
+      "ruled-line-dark": {
+        "role": "neutral",
+        "displayName": "Ruled Line (dark)",
+        "canonical": "#2a3531",
+        "tonalRamp": [
+          "#242927",
+          "#3b4541",
+          "#51625c",
+          "#667f76",
+          "#899f97",
+          "#b2beb9",
+          "#d6dbd9",
+          "#f2f3f2"
+        ]
+      },
+      "correct-green-dark": {
+        "role": "secondary",
+        "displayName": "Correct Green (dark)",
+        "canonical": "#5fd27f",
+        "tonalRamp": [
+          "#1a3321",
+          "#275935",
+          "#308247",
+          "#36af58",
+          "#5eca7c",
+          "#9ad5ab",
+          "#cce5d3",
+          "#eff6f1"
+        ]
+      },
+      "correct-wash-dark": {
+        "role": "secondary",
+        "displayName": "Correct Wash (dark)",
+        "canonical": "#173523",
+        "tonalRamp": [
+          "#1d2f24",
+          "#2e513c",
+          "#3c7653",
+          "#489d6a",
+          "#6eba8c",
+          "#a3ccb3",
+          "#d0e2d7",
+          "#f0f5f2"
+        ]
+      },
+      "miss-red-dark": {
+        "role": "secondary",
+        "displayName": "Miss Red (dark)",
+        "canonical": "#ff8a80",
+        "tonalRamp": [
+          "#3c1410",
+          "#6c1a13",
+          "#a21c10",
+          "#df1807",
+          "#f54233",
+          "#ec8b83",
+          "#efc6c3",
+          "#f8edec"
+        ]
+      },
+      "miss-wash-dark": {
+        "role": "secondary",
+        "displayName": "Miss Wash (dark)",
+        "canonical": "#3d1a18",
+        "tonalRamp": [
+          "#301e1d",
+          "#532e2c",
+          "#793d39",
+          "#a24944",
+          "#be6e6a",
+          "#cea3a1",
+          "#e2d0cf",
+          "#f5f0f0"
+        ]
+      },
+      "trap-amber-dark": {
+        "role": "secondary",
+        "displayName": "Trap Amber (dark)",
+        "canonical": "#f0b24a",
+        "tonalRamp": [
+          "#392b13",
+          "#66491a",
+          "#97691b",
+          "#ce8a17",
+          "#e6a942",
+          "#e4c38b",
+          "#ecdec6",
+          "#f7f4ed"
+        ]
+      },
+      "domain-1-blue-dark": {
+        "role": "tertiary",
+        "displayName": "Domain 1 Blue (dark)",
+        "canonical": "#7fb2ea",
+        "tonalRamp": [
+          "#162636",
+          "#203e60",
+          "#25578e",
+          "#256fc0",
+          "#4e91d9",
+          "#92b6dd",
+          "#c9d8e9",
+          "#eef2f6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "App name on home."
+      },
+      "score": {
+        "displayName": "Score",
+        "purpose": "Result percentage; the session's peak moment."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Compare / Glossary screen titles."
+      },
+      "section": {
+        "displayName": "Section",
+        "purpose": "Glossary category headings."
+      },
+      "question": {
+        "displayName": "Question",
+        "purpose": "Question stem; most-read text."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Compare table titles, mode names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Options, explanations, descriptions."
+      },
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Mode descriptions, chips, table cells."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase mono eyebrows."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Counts, timers, n/N progress."
+      }
+    },
+    "shadows": [
+      {
+        "name": "soft-sheet",
+        "value": "0 1px 2px rgba(23,32,29,.06), 0 4px 14px rgba(23,32,29,.06)",
+        "purpose": "ADOPTED DIRECTION, not yet implemented: ambient depth under sheets and answer options in light mode; dark mode uses Sheet Dark tone instead."
+      }
+    ],
+    "motion": [
+      {
+        "name": "progress-fill",
+        "value": "width 250ms ease-out",
+        "purpose": "Progress bar fill (web build); respect reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "column-max",
+        "value": "780px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one next-step action per screen (Start, Check, Next).",
+      "html": "<button class=\"ds-btn-primary\">Check</button>",
+      "css": ".ds-btn-primary{background:#0f7a5c;color:#fff;font:700 15px/22px system-ui,sans-serif;padding:11px 16px;border:1px solid #0f7a5c;border-radius:8px;min-height:44px;cursor:pointer;transition:background .15s,transform .1s}.ds-btn-primary:hover{background:#0b6049}.ds-btn-primary:active{transform:translateY(1px);background:#0b6049}.ds-btn-primary:focus-visible{outline:2px solid #0f7a5c;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Back, Quit, Menu, Retry missed.",
+      "html": "<button class=\"ds-btn-secondary\">Back</button>",
+      "css": ".ds-btn-secondary{background:#fff;color:#17201d;font:500 15px/22px system-ui,sans-serif;padding:11px 16px;border:1px solid #d9e0dd;border-radius:8px;min-height:44px;cursor:pointer}.ds-btn-secondary:hover{border-color:#0f7a5c}.ds-btn-secondary:active{background:#e1f1eb}.ds-btn-secondary:focus-visible{outline:2px solid #0f7a5c;outline-offset:2px}"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip-selected",
+      "description": "Domain, topic and count filters; selected state shown.",
+      "html": "<span class=\"ds-chip\">Storage <b>62</b></span><span class=\"ds-chip ds-chip-on\">Networking <b>47</b></span>",
+      "css": ".ds-chip{display:inline-flex;gap:6px;align-items:center;padding:7px 12px;margin:4px;border:1px solid #d9e0dd;border-radius:99px;background:#fff;color:#17201d;font:400 13px system-ui,sans-serif;cursor:pointer}.ds-chip b{font:400 13px Menlo,monospace;color:#5d6b66}.ds-chip-on{background:#e1f1eb;border-color:#0f7a5c;font-weight:700}.ds-chip:focus-visible{outline:2px solid #0f7a5c;outline-offset:2px}"
+    },
+    {
+      "name": "Answer Option",
+      "kind": "custom",
+      "refersTo": "answer-option",
+      "description": "Signature component: default, selected, correct and wrong states.",
+      "html": "<div class=\"ds-opts\"><div class=\"ds-opt\"><span>A</span>Amazon SQS</div><div class=\"ds-opt ds-sel\"><span>B</span>Amazon SNS</div><div class=\"ds-opt ds-ok\"><span>C</span>Amazon SES</div><div class=\"ds-opt ds-bad\"><span>D</span>Amazon Connect</div></div>",
+      "css": ".ds-opts{display:flex;flex-direction:column;gap:8px;font:400 15px/22px system-ui,sans-serif;color:#17201d}.ds-opt{display:flex;gap:12px;padding:12px;border:1px solid #d9e0dd;border-radius:8px;background:#fff;box-shadow:0 1px 2px rgba(23,32,29,.06),0 4px 14px rgba(23,32,29,.06);cursor:pointer}.ds-opt span{font:700 15px/22px Menlo,monospace;color:#5d6b66}.ds-opt:hover{border-color:#0f7a5c}.ds-sel{background:#e1f1eb;border-color:#0f7a5c}.ds-ok{background:#e3f4e7;border-color:#1d7a3a}.ds-bad{background:#fbe9e7;border-color:#b3261e}"
+    },
+    {
+      "name": "Explanation Block",
+      "kind": "custom",
+      "refersTo": "answer-option-wrong",
+      "description": "Verdict and explanation after Check, with margin-mark left rule.",
+      "html": "<div class=\"ds-explain\"><b>Not quite. Answer: C</b>SES sends transactional email at scale; SNS pushes notifications to topic subscribers.</div>",
+      "css": ".ds-explain{border-left:3px solid #b3261e;background:#fbe9e7;padding:12px;font:400 15px/22px system-ui,sans-serif;color:#17201d}.ds-explain b{display:block;margin-bottom:4px}"
+    },
+    {
+      "name": "Sheet",
+      "kind": "card",
+      "refersTo": "sheet",
+      "description": "Panel on the Study Desk, with the adopted soft-sheet shadow.",
+      "html": "<div class=\"ds-desk\"><div class=\"ds-sheet\"><span class=\"ds-label\">Mode</span><div>Weak-spot focus</div></div></div>",
+      "css": ".ds-desk{background:#f3f5f4;padding:16px}.ds-sheet{background:#fff;border:1px solid #d9e0dd;border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:12px;box-shadow:0 1px 2px rgba(23,32,29,.06),0 4px 14px rgba(23,32,29,.06);font:400 15px/22px system-ui,sans-serif;color:#17201d}.ds-label{font:600 11px Menlo,monospace;letter-spacing:1px;text-transform:uppercase;color:#5d6b66}"
+    },
+    {
+      "name": "Domain Tag",
+      "kind": "chip",
+      "refersTo": "domain-tag",
+      "description": "Mono domain identifier in its domain color.",
+      "html": "<span class=\"ds-dtag ds-d1\">D1 · 122</span><span class=\"ds-dtag ds-d3\">D3 · Cloud Technology</span>",
+      "css": ".ds-dtag{display:inline-block;margin:4px;padding:3px 7px;border:1px solid currentColor;border-radius:4px;font:600 11px Menlo,monospace}.ds-d1{color:#2f6fb0}.ds-d3{color:#0f7a5c}"
+    },
+    {
+      "name": "Progress Bar",
+      "kind": "custom",
+      "refersTo": "progress-bar",
+      "description": "Session progress / domain accuracy track.",
+      "html": "<div class=\"ds-bar\"><i></i></div>",
+      "css": ".ds-bar{height:6px;background:#d9e0dd;border-radius:99px;overflow:hidden;width:240px}.ds-bar i{display:block;height:6px;width:62%;background:#0f7a5c}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Glossary search field.",
+      "html": "<input class=\"ds-input\" placeholder=\"Search: queue, NoSQL, DDoS, SFTP…\">",
+      "css": ".ds-input{width:260px;padding:12px;border:1px solid #d9e0dd;border-radius:8px;background:#fff;color:#17201d;font:400 15px system-ui,sans-serif}.ds-input::placeholder{color:#5d6b66}.ds-input:focus-visible{outline:2px solid #0f7a5c;outline-offset:1px;border-color:#0f7a5c}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Notebook",
+    "overview": "CLF-C02 Drill is a study notebook you carry everywhere. On the phone it fits short, one-handed drills; on the laptop it is the sit-down desk for a full 90-minute simulation and the comparison tables. The page is the Study Desk. Every question, result and table sits on it as a loose sheet. The writing on those sheets carries the design: one question, four or five choices, then the explanation of the trap. Everything else stays out of the way.\n\nThe mood is **encouraging**. The app is coaching someone close to the pass mark, so it should feel like a coach writing in your margin, not a proctor. Encouragement comes from feedback at the right moment: the correct state, the score breakdown, the progress bar filling. It never comes from decorative cheer. Components are **tactile and confident**: generous tap targets, firm fills, and a visible response to every press, because half the sessions happen with a thumb.\n\nThe incumbent build is quieter and flatter than this direction. Panels have only a 1px border, and the moments of encouragement are plain text. Where this document states the direction ahead of the code, it says so.",
+    "keyCharacteristics": [
+      "One accent, Pass-Mark Green, reserved for progress toward passing.",
+      "Light and dark palettes that follow the system setting.",
+      "Monospace for data and labels, the system font for everything you read.",
+      "Sheets on a desk: rounded panels, ruled 1px borders, and soft ambient depth (adopted direction).",
+      "Four fixed domain colors that identify the exam domains everywhere."
+    ],
+    "rules": [
+      {
+        "name": "The Pass-Mark Rule",
+        "body": "Pass-Mark Green means progress or choice: the primary action, the current selection, a filling bar. It is never decoration, and a screen has one solid green button at most.",
+        "section": "colors"
+      },
+      {
+        "name": "The Never-Color-Alone Rule",
+        "body": "Correct and wrong are always spelled out in text (\"Correct\", \"Not quite. Answer: B\", \"Your answer:\", \"Correct:\"). The red/green wash is reinforcement, never the only signal.",
+        "section": "colors"
+      },
+      {
+        "name": "The Domain Identity Rule",
+        "body": "Each domain color always identifies the same exam domain. Never reuse a domain color for an unrelated meaning on the same screen.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono Means Data Rule",
+        "body": "Monospace is only for numbers, timers, counts and uppercase labels. A sentence is never set in mono.",
+        "section": "typography"
+      },
+      {
+        "name": "The Question First Rule",
+        "body": "The question stem is the largest text on the quiz screen after the progress line. Nothing in the quiz chrome competes with it.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Column Rule",
+        "body": "Every screen is one column of sheets on the desk. No sidebars and no multi-column dashboards, so the phone and laptop layouts are the same layout.",
+        "section": "layout"
+      },
+      {
+        "name": "The Paper On A Desk Rule",
+        "body": "Only sheets (panels, answer options, Compare cards) carry depth. Chips, tags, bars and buttons inside a sheet stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep one solid Pass-Mark Green button per screen, and use it for the next step toward finishing a session.",
+      "**Do** spell out every verdict in words next to its color (\"Correct\", \"Not quite. Answer: B\").",
+      "**Do** use the domain colors only for exam domains D1–D4, and the same hue for the same domain on every screen.",
+      "**Do** keep tap targets at least 44px tall and wrap chip rows instead of shrinking them.",
+      "**Do** set counts, timers and \"n/N\" in the mono Data style with tabular figures.",
+      "**Do** define every new color as a light and dark pair."
+    ],
+    "donts": [
+      "**Don't** use AWS logos, AWS orange, or official-looking certification badges. This is a personal tool, not an AWS product.",
+      "**Don't** set sentences or explanations in monospace.",
+      "**Don't** add shadows to chips, tags, bars or buttons. Depth belongs to sheets only.",
+      "**Don't** add a second accent hue. Red, green and amber are feedback colors, not brand accents.",
+      "**Don't** introduce multi-column layouts. One column of sheets works on both devices."
+    ]
+  }
+}

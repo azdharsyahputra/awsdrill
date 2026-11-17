@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "clf-drill",
+    "name": "CLF-C02 Drill",
     "slug": "clf-drill",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
     },
@@ -18,7 +18,9 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "CLF-C02 Drill",
+      "shortName": "CLF Drill"
     }
   }
 }
