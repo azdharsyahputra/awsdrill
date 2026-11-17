@@ -1,5 +1,6 @@
 import core from './core';
 import d1 from './d1-extra';
+import d1fw from './d1-frameworks';
 import d2 from './d2-extra';
 import d3 from './d3-extra';
 import storage from './storage-extra';
@@ -47,7 +48,7 @@ export function hash(s) {
 
 // Dedupe by question text; id is derived from the text so saved progress survives reordering.
 const seen = new Set();
-export const QUESTIONS = [...core, ...d1, ...d2, ...d3, ...storage, ...deepDb, ...deepNet, ...deepCompute, ...deepIntAn, ...deepMlMgmt, ...gaps1, ...gaps2, ...d4, ...d4gaps]
+export const QUESTIONS = [...core, ...d1, ...d1fw, ...d2, ...d3, ...storage, ...deepDb, ...deepNet, ...deepCompute, ...deepIntAn, ...deepMlMgmt, ...gaps1, ...gaps2, ...d4, ...d4gaps]
   .filter((q) => !seen.has(q.q) && seen.add(q.q))
   .map((q) => ({ ...q, id: hash(q.q) }));
 
